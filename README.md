@@ -1,6 +1,6 @@
-# AI Que Fome
+# Ai que Fome
 
-Este repositório contém o desenvolvimento do aplicativo "AI Que Fome", realizado em iterações e focado nos princípios do Extreme Programming (XP). O objetivo de cada iteração é entregar um incremento funcional do sistema que atenda às histórias de usuário priorizadas.
+Este repositório contém o desenvolvimento do aplicativo "Ai que Fome", realizado em iterações e focado nos princípios do Extreme Programming (XP). O objetivo de cada iteração é entregar um incremento funcional do sistema que atenda às histórias de usuário priorizadas.
 
 ## Tecnologias Utilizadas
 
@@ -23,20 +23,20 @@ Abaixo está o backlog completo do projeto "AI Que Fome", com todas as história
 
 | ID | Descrição (História de Usuário) | Prioridade | Complexidade (em pontos) | Critérios de Aceitação |
 |----|---------------------------------|------------|--------------------------|------------------------|
-| 01 | Como usuário, quero visualizar a lista de lanches, pratos e bebidas disponíveis para escolher o que desejo comer. | Alta | 3 | - O sistema deve exibir nome, descrição e preço.\n- Os itens devem estar organizados em uma lista clara.\n- Deve ser possível ver uma imagem ilustrativa. |
-| 02 | Como usuário, quero realizar login no sistema para acessar minhas informações e fazer pedidos. | Alta | 5 | - Deve haver campos para e-mail e senha.\n- O sistema deve validar se os campos foram preenchidos.\n- Após o login, o usuário deve ser levado ao cardápio. |
-| 03 | Como usuário, quero adicionar itens ao carrinho para preparar meu pedido. | Média | 4 | - Ao clicar em "adicionar", o item deve ser listado em uma área de carrinho. |
-| 04 | Como usuário, quero ver o total do meu pedido no carrinho para saber o valor final. | Média | 4 | - O sistema deve somar os preços de todos os itens no carrinho.\n- O valor total deve ser atualizado automaticamente ao remover/adicionar itens. |
-| 05 | Como usuário, quero filtrar o cardápio por categorias para achar mais rápido o que quero. | Baixa | 5 | - Deve haver botões ou um menu de categorias.\n- Ao selecionar uma categoria, apenas os itens dela devem aparecer. |
+| 01 | Como usuário, quero visualizar a lista de lanches, pratos e bebidas disponíveis para escolher o que desejo comer. | Alta | 3 | • O sistema deve exibir nome, descrição e preço. <br> • Os itens devem estar organizados em uma lista clara. <br> • Deve ser possível ver uma imagem ilustrativa. |
+| 02 | Como usuário, quero realizar login no sistema para acessar minhas informações e fazer pedidos. | Alta | 5 | • Deve haver campos para e-mail e senha. <br> • O sistema deve validar se os campos foram preenchidos. <br> • Após o login, o usuário deve ser levado ao cardápio. |
+| 03 | Como usuário, quero adicionar itens ao carrinho para preparar meu pedido. | Média | 4 | • Ao clicar em "adicionar", o item deve ser listado em uma área de carrinho. |
+| 04 | Como usuário, quero ver o total do meu pedido no carrinho para saber o valor final. | Média | 4 | • O sistema deve somar os preços de todos os itens no carrinho. <br> • O valor total deve ser atualizado automaticamente ao remover/adicionar itens. |
+| 05 | Como usuário, quero filtrar o cardápio por categorias para achar mais rápido o que quero. | Baixa | 5 | • Deve haver botões ou um menu de categorias. <br> • Ao selecionar uma categoria, apenas os itens dela devem aparecer. |
 
 ## Detalhamento das Iterações Realizadas
 
-Para a iteração atual, as seguintes histórias de usuário foram selecionadas com base em sua prioridade e complexidade, visando entregar um incremento funcional do sistema.
+As histórias de usuário implementadas em cada iteração são detalhadas a seguir, com base em sua prioridade e complexidade, visando a entrega de incrementos funcionais do sistema.
 
 | ID | História de Usuário | Pontos | Tarefas Técnicas Necessárias para Implementação |
 |----|---------------------|--------|-------------------------------------------------|
-| 01 | Como usuário, quero visualizar a lista de lanches, pratos e bebidas disponíveis para escolher o que desejo comer. | 3 | 1. Criar estrutura HTML (index.html) com a lista de produtos.\n2. Criar o arquivo CSS (style.css) para estilizar o cardápio.\n3. Criar um arquivo JavaScript (script.js) com um array de objetos contendo os dados dos lanches.\n4. Implementar função JS para renderizar os itens na tela. |
-| 02 | Como usuário, quero realizar login no sistema para acessar minhas informações e fazer pedidos. | 5 | 1. Criar a interface do formulário de login no HTML.\n2. Estilizar a tela de login para centralizar o formulário.\n3. Criar função em JavaScript para capturar os dados do formulário.\n4. Implementar lógica simples de redirecionamento para a página do cardápio após o clique no botão "Entrar". |
+| 01 | Como usuário, quero visualizar a lista de lanches, pratos e bebidas disponíveis para escolher o que desejo comer. | 3 | 1. Criar estrutura HTML (index.html) com a lista de produtos. <br> 2. Criar o arquivo CSS (style.css) para estilizar o cardápio. <br> 3. Criar um arquivo JavaScript (script.js) com um array de objetos contendo os dados dos lanches. <br> 4. Implementar função JS para renderizar os itens na tela. |
+| 02 | Como usuário, quero realizar login no sistema para acessar minhas informações e fazer pedidos. | 5 | 1. Criar a interface do formulário de login no HTML. <br> 2. Estilizar a tela de login para centralizar o formulário. <br> 3. Criar função em JavaScript para capturar os dados do formulário. <br> 4. Implementar lógica simples de redirecionamento para a página do cardápio após o clique no botão "Entrar". |
 
 ## Como Executar o Projeto
 
