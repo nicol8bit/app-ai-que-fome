@@ -44,7 +44,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone https://github.com/nicol8bit/app-ai-que-fome.git
     cd app-ai-que-fome
     ```
 2.  **Abra os arquivos HTML:**
